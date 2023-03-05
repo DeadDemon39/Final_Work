@@ -20,3 +20,10 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
+
+
+string[] array1 = new string[5] {"123", "23", "hello", "world", "res"};
+string[] array2 = new string[array1.Length];
+
+ArraySolution(array1, array2);
+PrintArray(array2);
